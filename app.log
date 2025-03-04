@@ -161,3 +161,55 @@ INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:26:10] "GET /chat?__debugger__=yes&c
 INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:26:59] "GET /chat HTTP/1.1" 200 -
 INFO:__main__:Chat response: Chatbot: Hi there! Ready to dive into some IT solutions?
 INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:27:08] "POST /chat HTTP/1.1" 200 -
+INFO:__main__:Updated weights in welcome_messages.json with 3 feedback entries
+INFO:__main__:Updated weights in chat_responses.json with 2 feedback entries
+INFO:__main__:Updated weights in welcome_messages.json with 3 feedback entries
+INFO:__main__:Updated weights in chat_responses.json with 3 feedback entries
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:56:31] "GET / HTTP/1.1" 200 -
+INFO:__main__:Generated site for Firm s
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:56:38] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:56:47] "GET /chat HTTP/1.1" 200 -
+INFO:__main__:Chat response: Chatbot: Ready to help!
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:56:52] "POST /chat HTTP/1.1" 200 -
+INFO:__main__:Chat response: Chatbot: Hi! How can I assist you today with your tech needs?
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:57:01] "POST /chat HTTP/1.1" 200 -
+INFO:__main__:Chat response: Chatbot: Hello! 😊 Welcome to {{name}}. What brings you here today? Let me know how I can make your day easier!
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 15:57:04] "POST /chat HTTP/1.1" 200 -
+INFO:__main__:Updated weights in welcome_messages.json with 3 feedback entries
+INFO:__main__:Updated weights in chat_responses.json with 5 feedback entries
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:03:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:03:06] "GET /chat HTTP/1.1" 200 -
+INFO:__main__:Chat response: Chatbot: Hello! 😊 Welcome to {{name}}. What brings you here today? Let me know how I can make your day easier!
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:03:09] "POST /chat HTTP/1.1" 200 -
+INFO:__main__:Updated weights in welcome_messages.json with 3 feedback entries
+INFO:__main__:Updated weights in chat_responses.json with 6 feedback entries
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:06:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:06:37] "GET /chat HTTP/1.1" 200 -
+INFO:__main__:Chat response: Chatbot: Hi! What’s on your mind—something tech-related, I bet?
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:06:43] "POST /chat HTTP/1.1" 200 -
+INFO:__main__:Updated weights in welcome_messages.json with 3 feedback entries
+INFO:__main__:Updated weights in chat_responses.json with 7 feedback entries

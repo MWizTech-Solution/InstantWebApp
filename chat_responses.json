@@ -1,1 +1,52 @@
-{"responses": [{"text": "Chatbot: How can I assist?", "weight": 1.0}, {"text": "Chatbot: Ready to help!", "weight": 1.0}, {"text": "Chatbot: Hi there! \ud83d\udc4b How can I assist you today? Whether it's tech support, product info, or just a quick question, I'm here to help!", "weight": 1.0}, {"text": "Chatbot: Hello! \ud83d\ude0a Welcome to {{name}}. What brings you here today? Let me know how I can make your day easier!", "weight": 1.0}, {"text": "Chatbot: Hi! \ud83d\ude80 Ready to dive into some tech solutions? Let me know what you're looking for, and I'll guide you through it!", "weight": 1.0}, {"text": "Chatbot: Hey! \ud83d\udc4b Great to see you here. How can I help you today? Whether it's troubleshooting or exploring new tools, I've got you covered!", "weight": 1.0}, {"text": "Chatbot: Hi! \ud83d\ude04 Thanks for reaching out. What can I do for you today? Feel free to ask me anything\u2014I'm here to help!", "weight": 1.0}, {"text": "Chatbot: Hi! How can I assist you today with your tech needs?", "weight": 1.0}, {"text": "Chatbot: Hi there! Ready to dive into some IT solutions?", "weight": 1.0}, {"text": "Chatbot: Hi! What\u2019s on your mind\u2014something tech-related, I bet?", "weight": 1.0}, {"text": "Chatbot: Hi, welcome! How can I help your SME level up with technology?", "weight": 1.0}, {"text": "Chatbot: Hi! Looking for a tech boost? I\u2019ve got you covered.", "weight": 1.0}]}
+{
+  "responses": [
+    {
+      "text": "Chatbot: How can I assist?",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Ready to help!",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hi there! \ud83d\udc4b How can I assist you today? Whether it's tech support, product info, or just a quick question, I'm here to help!",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hello! \ud83d\ude0a Welcome to MWizTech. What brings you here today? Let me know how I can make your day easier!",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hi! \ud83d\ude80 Ready to dive into some tech solutions? Let me know what you're looking for, and I'll guide you through it!",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hey! \ud83d\udc4b Great to see you here. How can I help you today? Whether it's troubleshooting or exploring new tools, I've got you covered!",
+      "weight": 1.0285714285714285
+    },
+    {
+      "text": "Chatbot: Hi! \ud83d\ude04 Thanks for reaching out. What can I do for you today? Feel free to ask me anything\u2014I'm here to help!",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hi! How can I assist you today with your tech needs?",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hi there! Ready to dive into some IT solutions?",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hi! What\u2019s on your mind\u2014something tech-related, I bet?",
+      "weight": 1.0
+    },
+    {
+      "text": "Chatbot: Hi, welcome! How can I help your SME level up with technology?",
+      "weight": 1.0285714285714285
+    },
+    {
+      "text": "Chatbot: Hi! Looking for a tech boost? I\u2019ve got you covered.",
+      "weight": 1.0
+    }
+  ]
+}
