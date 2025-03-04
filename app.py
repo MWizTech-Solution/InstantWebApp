@@ -51,5 +51,26 @@ def feedback():
     logger.info("Feedback saved")
     return "Feedback received"
 
+@app.route('/chat', methods=['GET', 'POST'])
+def chat():
+    messages = load_json('chat_responses.json', {"responses": [{"text": "Chatbot: How can I assist?", "weight": 1}]})["responses"]
+    if request.method == 'POST':
+        msg = request.form.get('msg', '')
+        with open('chat_feedback.txt', 'a') as f:
+            f.write(f"{msg} - {time.ctime()}\n")
+        try:
+            response = random.choices([m["text"] for m in messages], weights=[m["weight"] for m in messages])[0]
+        except IndexError:
+            logger.error("Chat responses empty—using default")
+            response = "Chatbot: How can I assist?"
+        logger.info(f"Chat response: {response}")
+        return response
+    return """
+    <form method="POST">
+        <label>Chat: </label><input type="text" name="msg"><br>
+        <input type="submit" value="Send">
+    </form>
+    """
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
