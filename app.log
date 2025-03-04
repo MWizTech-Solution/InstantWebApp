@@ -213,3 +213,114 @@ INFO:__main__:Chat response: Chatbot: Hi! What’s on your mind—something tech
 INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:06:43] "POST /chat HTTP/1.1" 200 -
 INFO:__main__:Updated weights in welcome_messages.json with 3 feedback entries
 INFO:__main__:Updated weights in chat_responses.json with 7 feedback entries
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:12:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:12:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:12:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:28:57] "GET / HTTP/1.1" 200 -
+INFO:__main__:Generated site for Firm Jay
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:29:23] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:29:46] "[33mPOST /generate_app HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/workspaces/InstantWebApp/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug: * Detected change in '/workspaces/InstantWebApp/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug: * Detected change in '/workspaces/InstantWebApp/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug: * Detected change in '/workspaces/InstantWebApp/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug: * Detected change in '/workspaces/InstantWebApp/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug: * Detected change in '/workspaces/InstantWebApp/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:30:43] "[33mPOST /generate_app HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:39:47] "GET / HTTP/1.1" 200 -
+INFO:__main__:Generated site for Firm Jay
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:39:52] "POST / HTTP/1.1" 200 -
+INFO:__main__:Generated app for {{name}}
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 16:39:53] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 16:48:30 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 16:48:30 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 16:48:30 - INFO -  * Restarting with stat
+2025-03-04 16:48:30 - WARNING -  * Debugger is active!
+2025-03-04 16:48:30 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 16:49:07 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 16:49:07 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 16:49:07 - INFO -  * Restarting with stat
+2025-03-04 16:49:08 - WARNING -  * Debugger is active!
+2025-03-04 16:49:08 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 16:49:11 - INFO - 127.0.0.1 - - [04/Mar/2025 16:49:11] "GET / HTTP/1.1" 200 -
+2025-03-04 16:49:31 - INFO - Generated site for golden stocks
+2025-03-04 16:49:31 - INFO - 127.0.0.1 - - [04/Mar/2025 16:49:31] "POST / HTTP/1.1" 200 -
+2025-03-04 16:49:44 - INFO - Generated site for golden stocks
+2025-03-04 16:49:44 - INFO - 127.0.0.1 - - [04/Mar/2025 16:49:44] "POST / HTTP/1.1" 200 -
+2025-03-04 16:49:48 - INFO - Generated site for golden stocks
+2025-03-04 16:49:48 - INFO - 127.0.0.1 - - [04/Mar/2025 16:49:48] "POST / HTTP/1.1" 200 -
+2025-03-04 16:49:57 - INFO - Generated site for golden stocks
+2025-03-04 16:49:57 - INFO - 127.0.0.1 - - [04/Mar/2025 16:49:57] "POST / HTTP/1.1" 200 -
+2025-03-04 16:50:45 - INFO - Feedback saved
+2025-03-04 16:50:45 - INFO - 127.0.0.1 - - [04/Mar/2025 16:50:45] "POST /feedback HTTP/1.1" 200 -
+INFO:__main__:Updated weights in welcome_messages.json with 4 feedback entries
+INFO:__main__:Updated weights in chat_responses.json with 7 feedback entries
+2025-03-04 16:51:39 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 16:51:39 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 16:51:39 - INFO -  * Restarting with stat
+2025-03-04 16:51:40 - WARNING -  * Debugger is active!
+2025-03-04 16:51:40 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 16:51:42 - INFO - 127.0.0.1 - - [04/Mar/2025 16:51:42] "GET / HTTP/1.1" 200 -
+2025-03-04 16:51:51 - INFO - Generated site for Golden Stocks
+2025-03-04 16:51:51 - INFO - 127.0.0.1 - - [04/Mar/2025 16:51:51] "POST / HTTP/1.1" 200 -
+2025-03-04 16:51:56 - INFO - Generated app for {{name}}
+2025-03-04 16:51:56 - INFO - 127.0.0.1 - - [04/Mar/2025 16:51:56] "POST /generate_app HTTP/1.1" 200 -

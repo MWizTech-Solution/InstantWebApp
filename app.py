@@ -3,9 +3,15 @@ import logging
 import json
 import random
 import time
+from flask import send_file
 
 app = Flask(__name__)
-logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler('app.log'), logging.StreamHandler()])
+logging.basicConfig(
+    level=logging.INFO,
+    handlers=[logging.FileHandler('app.log'), logging.StreamHandler()],
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
 logger = logging.getLogger(__name__)
 
 def load_json(file, default):
@@ -28,6 +34,12 @@ def generate_web():
         except FileNotFoundError:
             logger.error("Template missing—using default")
             template = "<html><body><h1>{{name}}</h1><p>{{content}}</p>{{feedback_form}}</body></html>"
+        app_download = """
+            <form method="POST" action="/generate_app">
+            <input type="hidden" name="name" value="{{name}}"><br>
+            <input type="submit" value="Download App">
+            </form>
+            """
         feedback_form = """
         <form method="POST" action="/feedback">
             <label>Feedback: </label><input type="text" name="feedback"><br>
@@ -35,7 +47,7 @@ def generate_web():
         </form>
         """
         logger.info(f"Generated site for {name}")
-        return render_template_string(template, name=name, content=content, feedback_form=feedback_form)
+        return render_template_string(template, name=name, content=content, feedback_form=app_download + feedback_form)
     return """
     <form method="POST">
         <label>Company Name: </label><input type="text" name="name"><br>
@@ -72,5 +84,16 @@ def chat():
     </form>
     """
 
+@app.route('/generate_app', methods=['POST'])
+def generate_app():
+    name = request.form.get('name', 'Default')
+    apk_path = 'apk/it_sme_app.apk'
+    try:
+        logger.info(f"Generated app for {name}")
+        return send_file(apk_path, as_attachment=True, download_name=f"{name}_app.apk")
+    except FileNotFoundError:
+        logger.error("APK missing—using fallback message")
+        return "App generation failed—placeholder APK not found"
+    
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
