@@ -34,12 +34,12 @@ def generate_web():
         except FileNotFoundError:
             logger.error("Template missing—using default")
             template = "<html><body><h1>{{name}}</h1><p>{{content}}</p>{{feedback_form}}</body></html>"
-        app_download = """
+        app_download = render_template_string("""
             <form method="POST" action="/generate_app">
             <input type="hidden" name="name" value="{{name}}"><br>
             <input type="submit" value="Download App">
             </form>
-            """
+            """, name=name)
         feedback_form = """
         <form method="POST" action="/feedback">
             <label>Feedback: </label><input type="text" name="feedback"><br>
@@ -86,14 +86,29 @@ def chat():
 
 @app.route('/generate_app', methods=['POST'])
 def generate_app():
-    name = request.form.get('name', 'Default')
+    name = request.form.get('name', 'Default')  # Get name from form
     apk_path = 'apk/it_sme_app.apk'
+    default_apk_path = 'apk/default_app.apk'
     try:
         logger.info(f"Generated app for {name}")
+        # Use name directly in f-string—no {{}}
         return send_file(apk_path, as_attachment=True, download_name=f"{name}_app.apk")
     except FileNotFoundError:
-        logger.error("APK missing—using fallback message")
-        return "App generation failed—placeholder APK not found"
+        logger.error(f"Main APK missing at {apk_path}—attempting fallback")
+        try:
+            logger.info(f"Using default APK for {name}")
+            return send_file(default_apk_path, as_attachment=True, download_name=f"{name}_default_app.apk")
+        except FileNotFoundError:
+            logger.error("Default APK also missing—self-healing failed")
+            return render_template_string("""
+            <html>
+            <body>
+                <h2>Oops!</h2>
+                <p>Sorry, we couldn’t generate your app right now. Please try again later or contact support.</p>
+                <a href="/">Back to Home</a>
+            </body>
+            </html>
+            """)
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

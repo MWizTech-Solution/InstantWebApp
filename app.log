@@ -324,3 +324,107 @@ INFO:__main__:Updated weights in chat_responses.json with 7 feedback entries
 2025-03-04 16:51:51 - INFO - 127.0.0.1 - - [04/Mar/2025 16:51:51] "POST / HTTP/1.1" 200 -
 2025-03-04 16:51:56 - INFO - Generated app for {{name}}
 2025-03-04 16:51:56 - INFO - 127.0.0.1 - - [04/Mar/2025 16:51:56] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 16:58:00 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 16:58:00 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 16:58:00 - INFO -  * Restarting with stat
+2025-03-04 16:58:01 - WARNING -  * Debugger is active!
+2025-03-04 16:58:01 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 16:58:03 - INFO - 127.0.0.1 - - [04/Mar/2025 16:58:03] "GET / HTTP/1.1" 200 -
+2025-03-04 16:58:14 - INFO - Generated site for Firm Test
+2025-03-04 16:58:14 - INFO - 127.0.0.1 - - [04/Mar/2025 16:58:14] "POST / HTTP/1.1" 200 -
+2025-03-04 16:58:16 - INFO - Generated app for {{name}}
+2025-03-04 16:58:16 - ERROR - APK missing—using fallback message
+2025-03-04 16:58:16 - INFO - 127.0.0.1 - - [04/Mar/2025 16:58:16] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:02:05 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 17:02:05 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 17:02:05 - INFO -  * Restarting with stat
+2025-03-04 17:02:05 - WARNING -  * Debugger is active!
+2025-03-04 17:02:05 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 17:02:08 - INFO - 127.0.0.1 - - [04/Mar/2025 17:02:08] "GET / HTTP/1.1" 200 -
+2025-03-04 17:02:14 - INFO - Generated site for RSI
+2025-03-04 17:02:14 - INFO - 127.0.0.1 - - [04/Mar/2025 17:02:14] "POST / HTTP/1.1" 200 -
+2025-03-04 17:02:15 - INFO - Generated app for {{name}}
+2025-03-04 17:02:15 - INFO - 127.0.0.1 - - [04/Mar/2025 17:02:15] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:04:42 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 17:04:42 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 17:04:42 - INFO -  * Restarting with stat
+2025-03-04 17:04:42 - WARNING -  * Debugger is active!
+2025-03-04 17:04:42 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 17:04:45 - INFO - 127.0.0.1 - - [04/Mar/2025 17:04:45] "GET / HTTP/1.1" 200 -
+2025-03-04 17:04:49 - INFO - Generated site for Firm X
+2025-03-04 17:04:49 - INFO - 127.0.0.1 - - [04/Mar/2025 17:04:49] "POST / HTTP/1.1" 200 -
+2025-03-04 17:04:50 - INFO - Generated app for {{name}}
+2025-03-04 17:04:50 - INFO - 127.0.0.1 - - [04/Mar/2025 17:04:50] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:05:15 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 17:05:15 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 17:05:15 - INFO -  * Restarting with stat
+2025-03-04 17:05:15 - WARNING -  * Debugger is active!
+2025-03-04 17:05:15 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 17:05:17 - INFO - 127.0.0.1 - - [04/Mar/2025 17:05:17] "GET / HTTP/1.1" 200 -
+2025-03-04 17:05:20 - INFO - Generated site for Firm Jay
+2025-03-04 17:05:20 - INFO - 127.0.0.1 - - [04/Mar/2025 17:05:20] "POST / HTTP/1.1" 200 -
+2025-03-04 17:05:24 - INFO - Generated app for {{name}}
+2025-03-04 17:05:24 - ERROR - Main APK missing at apk/it_sme_app.apk—attempting fallback
+2025-03-04 17:05:24 - INFO - Using default APK for {{name}}
+2025-03-04 17:05:24 - INFO - 127.0.0.1 - - [04/Mar/2025 17:05:24] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:06:29 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 17:06:29 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 17:06:29 - INFO -  * Restarting with stat
+2025-03-04 17:06:30 - WARNING -  * Debugger is active!
+2025-03-04 17:06:30 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 17:06:32 - INFO - 127.0.0.1 - - [04/Mar/2025 17:06:32] "GET / HTTP/1.1" 200 -
+2025-03-04 17:06:35 - INFO - Generated site for next trending
+2025-03-04 17:06:35 - INFO - 127.0.0.1 - - [04/Mar/2025 17:06:35] "POST / HTTP/1.1" 200 -
+2025-03-04 17:06:44 - INFO - Generated app for {{name}}
+2025-03-04 17:06:44 - ERROR - Main APK missing at apk/it_sme_app.apk—attempting fallback
+2025-03-04 17:06:44 - INFO - Using default APK for {{name}}
+2025-03-04 17:06:44 - ERROR - Default APK also missing—self-healing failed
+2025-03-04 17:06:44 - INFO - 127.0.0.1 - - [04/Mar/2025 17:06:44] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:06:47 - INFO - 127.0.0.1 - - [04/Mar/2025 17:06:47] "GET / HTTP/1.1" 200 -
+2025-03-04 17:07:28 - INFO - Generated site for Firm Jay
+2025-03-04 17:07:28 - INFO - 127.0.0.1 - - [04/Mar/2025 17:07:28] "POST / HTTP/1.1" 200 -
+2025-03-04 17:07:29 - INFO - Generated app for {{name}}
+2025-03-04 17:07:29 - INFO - 127.0.0.1 - - [04/Mar/2025 17:07:29] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:15:31 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 17:15:31 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 17:15:31 - INFO -  * Restarting with stat
+2025-03-04 17:15:31 - WARNING -  * Debugger is active!
+2025-03-04 17:15:31 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 17:15:35 - INFO - 127.0.0.1 - - [04/Mar/2025 17:15:35] "GET / HTTP/1.1" 200 -
+2025-03-04 17:15:39 - INFO - Generated site for frim
+2025-03-04 17:15:39 - INFO - 127.0.0.1 - - [04/Mar/2025 17:15:39] "POST / HTTP/1.1" 200 -
+2025-03-04 17:15:43 - INFO - Generated app for frim
+2025-03-04 17:15:43 - INFO - 127.0.0.1 - - [04/Mar/2025 17:15:43] "POST /generate_app HTTP/1.1" 200 -
+2025-03-04 17:16:11 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+2025-03-04 17:16:11 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 17:16:11 - INFO -  * Restarting with stat
+2025-03-04 17:16:11 - WARNING -  * Debugger is active!
+2025-03-04 17:16:11 - INFO -  * Debugger PIN: 188-227-920
+2025-03-04 17:16:14 - INFO - 127.0.0.1 - - [04/Mar/2025 17:16:14] "GET / HTTP/1.1" 200 -
+2025-03-04 17:16:18 - INFO - Generated site for hhh
+2025-03-04 17:16:18 - INFO - 127.0.0.1 - - [04/Mar/2025 17:16:18] "POST / HTTP/1.1" 200 -
+2025-03-04 17:16:20 - INFO - Generated app for hhh
+2025-03-04 17:16:20 - ERROR - Main APK missing at apk/it_sme_app.apk—attempting fallback
+2025-03-04 17:16:20 - INFO - Using default APK for hhh
+2025-03-04 17:16:20 - INFO - 127.0.0.1 - - [04/Mar/2025 17:16:20] "POST /generate_app HTTP/1.1" 200 -
