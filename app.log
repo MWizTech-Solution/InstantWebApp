@@ -1,0 +1,23 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 188-227-920
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 13:57:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 13:57:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:__main__:Generated site for Firm X
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 13:57:49] "POST / HTTP/1.1" 200 -
+INFO:__main__:Feedback saved
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 13:58:05] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.236:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 395-710-593
+INFO:werkzeug:127.0.0.1 - - [04/Mar/2025 14:00:31] "GET / HTTP/1.1" 200 -
